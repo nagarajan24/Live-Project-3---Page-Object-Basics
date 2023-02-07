@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href= Fri_Feb_03_17_42_10_IST_2023.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href= Fri_Feb_03_17_42_10_IST_2023.jpg target="_blank"><img src= Fri_Feb_03_17_42_10_IST_2023.jpg width=200 height=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href= Fri_Feb_03_17_42_53_IST_2023.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href= Fri_Feb_03_17_42_53_IST_2023.jpg target="_blank"><img src= Fri_Feb_03_17_42_53_IST_2023.jpg width=200 height=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Live Proj 3 - PageObjectModel Basics" duration-ms="62592" started-at="2023-02-03T17:41:51 IST" finished-at="2023-02-03T17:42:53 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="33356" started-at="2023-02-03T17:41:51 IST" finished-at="2023-02-03T17:42:24 IST">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="FAIL" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@4d5d943d]" name="loginTest" duration-ms="2528" started-at="2023-02-03T17:42:08 IST" data-provider="dp" finished-at="2023-02-03T17:42:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=nagarajan24, runmode=Y, username=nagarajancool24@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing Login Test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing Login Test
+at org.testng.Assert.fail(Assert.java:99)
+at com.w2a.testcases.LoginTest.loginTest(LoginTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href= Fri_Feb_03_17_42_10_IST_2023.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href= Fri_Feb_03_17_42_10_IST_2023.jpg target="_blank"><img src= Fri_Feb_03_17_42_10_IST_2023.jpg width=200 height=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Create Account Test" duration-ms="27417" started-at="2023-02-03T17:42:26 IST" finished-at="2023-02-03T17:42:53 IST">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@4d5d943d]" name="tearDown" is-config="true" duration-ms="1170" started-at="2023-02-03T17:42:53 IST" finished-at="2023-02-03T17:42:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+      <class name="com.w2a.testcases.CreateAccountTest">
+        <test-method status="FAIL" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@28701274]" name="createAccountTest" duration-ms="26727" started-at="2023-02-03T17:42:26 IST" data-provider="dp" finished-at="2023-02-03T17:42:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountname=Rahul, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing Account Test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing Account Test
+at org.testng.Assert.fail(Assert.java:99)
+at com.w2a.testcases.CreateAccountTest.createAccountTest(CreateAccountTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href= Fri_Feb_03_17_42_53_IST_2023.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href= Fri_Feb_03_17_42_53_IST_2023.jpg target="_blank"><img src= Fri_Feb_03_17_42_53_IST_2023.jpg width=200 height=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.w2a.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Live Proj 3 - PageObjectModel Basics -->
+</testng-results>
