@@ -17,6 +17,7 @@ public class CreateAccountTest {
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "dp")
 	public void createAccountTest(Hashtable<String,String> data)
 	{
+		//Zoho app
 		ZohoAppPage zp = new ZohoAppPage();
 		zp.goToCRM();
 		
