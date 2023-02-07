@@ -1,0 +1,11 @@
+INFO    2023-02-03 17:41:53,859 [main] base.BasePage  - OR and Config property files are loaded successfully
+INFO    2023-02-03 17:42:03,384 [main] base.BasePage  - Browser: chrome is launched successfully
+INFO    2023-02-03 17:42:09,401 [main] base.BasePage  - Element: signin_LINKTEXT is clicked successfully
+INFO    2023-02-03 17:42:09,860 [main] base.BasePage  - Text: nagarajancool24@gmail.com is Entered successfully in : loginBtn_XPATH
+INFO    2023-02-03 17:42:10,042 [main] base.BasePage  - Element: loginNextBtn_XPATH is clicked successfully
+INFO    2023-02-03 17:42:10,424 [main] base.BasePage  - Text: nagarajan24 is Entered successfully in : pwd_CSS
+INFO    2023-02-03 17:42:10,530 [main] base.BasePage  - Element: pwdNextBtn_CSS is clicked successfully
+INFO    2023-02-03 17:42:48,536 [main] base.BasePage  - Element: crmBtn_XPATH is clicked successfully
+INFO    2023-02-03 17:42:48,900 [main] base.BasePage  - Element: accountsBtn_LINKTEXT is clicked successfully
+INFO    2023-02-03 17:42:50,812 [main] base.BasePage  - createAccountBtn_XPATH is clicked successfully
+INFO    2023-02-03 17:42:53,072 [main] base.BasePage  - Text: Rahul is Entered successfully in : accNameBox_CSS
